@@ -1,9 +1,9 @@
 downloads:
     -
-        url: https://download.avm.de/fritzbox/fritzbox-7430/deutschland/fritz.os/FRITZ.Box_7430-07.29.image
+        url: https://download.avm.de/fritzbox/fritzbox-7430/deutschland/fritz.os/FRITZ.Box_7430-07.31.image
         extractionsteps: >
                 <pre>
-                    7z e FRITZ.Box_7430-07.29.image -r filesystem.image
+                    7z e FRITZ.Box_7430-07.31.image -r filesystem.image
                     unsquashfs4-avm-be filesystem.image -e filesystem_core.squashfs
 
                     cd squashfs-root
